@@ -1,5 +1,86 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+  .q7__inner__one {
+    float: left;
+    width: 205px;
+    font-size: 16px;
+  }
 
+  .q7__box__second {
+    float: right;
+    width: 205px;
+    margin-left: 50px;
+    font-size: 16px;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .q7__box__inner {
+    width: 205px;
+    font-size: 16px;
+    margin-right: 50px;
+  }
+
+  .q7__box__original {
+    display: table-cell;
+  }
+
+  .q7__inner__original {
+    display: table;
+  }
+
+  .q7__inlineblock__original__inner {
+    display: inline-block;
+    width: 205px;
+    font-size: 16px;
+  }
+
+  .q7__inlineblock__original__inner:first-child {
+    margin-right: 50px;
+    transform: translateY(-32px);
+  }
+
+  .q7__inlineblock__original {
+    font-size: 0;
+  }
+
+  .q7__flex__original {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .q7__flex__original__inner {
+    width: 205px;
+  }
+
+  .q7__margin__original {
+    display: inline-block;
+    width: 300px;
+    margin-right: 50px;
+  }
+
+  .q7__margin__original__sub {
+    display: inline-block;
+    width: 100%;
+    margin-left: -350px;
+  }
+
+  .q7__margin__original__inner__second {
+    margin-left: 350px;
+    font-size: 16px;
+  }
+
+  .q7__margin__original__inner {
+    font-size: 16px;
+  }
+
+  .q7--margin--zero {
+    font-size: 0;
+  }
 /* 回答はここに書いてね */

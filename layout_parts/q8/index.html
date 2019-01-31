@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn q8--btn--small">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="small blue">common</div>
+            <div class="small pink">error</div>
+            <div class="small gray">disabled</div>
+            <div class="small white shadow">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn q8--btn--middle">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="middle blue">common</div>
+            <div class="middle pink">error</div>
+            <div class="middle gray">disabled</div>
+            <div class="middle white shadow">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn q8--btn--large">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="large blue">common</div>
+            <div class="large pink">error</div>
+            <div class="large gray">disabled</div>
+            <div class="large white shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,61 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form action="#" class="form" method="get">
+              <div class="form_inner">
+                <h1 class="form_title">Form Exercise</h1>
+              </div>
+              <div class="contact__inner clearfix">
+                <div class="left__inner">
+                  <div>
+                    <label for="name" class="q8__name">名前<span class="name__red">*</span></label>
+                    <input type="text" id="name" name="user_name" required>
+                  </div>
+                  <div class="gender__inner clearfix">
+                    <p class="gender__inner__head">性別</p>
+                    <div class="gender__inner__radio">
+                      <div class="man">
+                        <input type="radio" id="man" name="user_gender" value="man">
+                        <label for="man" class="man__text"><span>男性</span></label>
+                      </div>
+                      <div class="woman">
+                        <input type="radio" id="woman" name="user_gender" value="woman">
+                        <label for="woman" class="woman__text"><span>女性</span></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="graduate__inner">
+                    <p class="graduate__inner__head">出身</p>
+                    <div class="graduate__inner__sub">
+                      <select name="出身" class="graduate__inner__select">
+                        <option value="tokyo">東京</option>
+                        <option value="saitama">埼玉</option>
+                        <option value="tiba">千葉</option>
+                        <option value="kanagawa">神奈川</option>
+                      </select>
+                    </div>
+                  </div>  
+                  <div class="mail__inner">
+                    <label for="mail" class="mail__inner__email">Eメール<span class="mail__red">*</span></label>
+                    <input type="text" id="mail" placeholder="ex) hoge@gmail.com" required>
+                  </div>
+                  <div class="tel__inner">
+                    <label for="TEL" class="tel__inner__tel">電話番号</label>
+                    <input type="text" id="TEL" placeholder="ex) 08012345678">
+                  </div>
+                  <div class="check__inner">
+                    <input type="checkbox" name="checkbox" id="check" value=twenty>
+                    <label for="check" class="check__inner__check">20歳以上です</label>
+                  </div>
+                  <div class="submit__inner">
+                    <input type="submit" name="submitButton" class="submit__inner__text" value="送信">
+                  </div>
+                </div>
+                  <div class="q8__textarea">
+                    <textarea name="msg" placeholder="何かあれば入力してください。" class="q8__msg"></textarea>
+                  </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
