@@ -2,9 +2,14 @@
 
 /* 回答はここに書いてね */
 .box_wrap {
-  width: 940px;
+  width: 920px;
   margin: 0 auto;
   background-color:#eff3f4;
+  padding: 20px 0 20px 20px;
+}
+
+.box_group:nth-child(-n+3) {
+  margin-right: 20px;
 }
 
 .sentence {
@@ -20,18 +25,6 @@
   width: 230px;
   border: solid 20px #3274ae;
   float: left; 
-}
-
-.box_center {
-  margin: 20px 20px 20px 0;
-}
-
-.box_right {
-  margin: 20px 20px 20px 0;
-}
-
-.box_left {
-  margin: 20px;
 }
 
 .clearfix:after {

@@ -6,7 +6,7 @@
     width: 100%;
   }
 
-  .table_top td:nth-child(-n+6) {
+  tr th:nth-child(-n+6) {
     font-size: 18px;
     line-height: 26px;
     color: #ffffff;
@@ -24,7 +24,7 @@
     background-color: #ecf1f2;
   }
 
-  .food td:nth-child(-n+36) {
+  .food td:nth-child(-n+6), tr th:nth-child(-n+6) {
     border: solid #dedede 1px;
     text-align: center;
     padding: 10px;

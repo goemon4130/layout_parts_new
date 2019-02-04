@@ -48,9 +48,12 @@
 }
 
 .q6--box__original-inner {
-  margin-left: 95px;
   position: absolute;
-  top: 85px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .q6--box__original {
@@ -59,10 +62,14 @@
 
 .q6__box__original {
   text-align: center;
+  position: relative;
 }
 
 .q6__box__original__inner {
-  transform: translateY(82px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 /* 回答はここに書いてね */

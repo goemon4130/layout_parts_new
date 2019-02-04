@@ -35,28 +35,25 @@
   margin-right: 10px;
 }
 
-.shadow {
-  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
-}
-
-.blue {
+.common {
   background-color: #00bcd4;
   color: #fff;
 }
 
-.pink {
+.error {
   background-color: #ff4081;
   color: #fff;
 }
 
-.gray {
+.disabled {
   background-color: #e5e5e5;
   color: #fff;
 }
 
-.white {
+.shadow {
   background-color: #fff;
   color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
 }
 
 /*ここまでが前半*/
@@ -389,7 +386,7 @@
   border: none;
 }
 
-.submit__inner__text:focus {
+.submit__inner__text:active {
   background-color: #fff;
   color: #00BCD4;
   outline: none;
