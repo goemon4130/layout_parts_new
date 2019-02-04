@@ -6,12 +6,12 @@
     padding: 20px;
   }
 
-  .container > div:nth-child(-n+2) {
+  .container .container__inner {
     display: table;
     width: 100%;
   }
 
-  .container > div div:nth-child(-n+3) {
+  .container__inner div:nth-child(-n+3) {
     display: table-cell;
   }
 
@@ -51,7 +51,7 @@
     background-color: #8fdcad;
   }
 
-  .container > div:first-child {
+  .container__inner:first-child {
     margin-bottom: 20px;
   }
 

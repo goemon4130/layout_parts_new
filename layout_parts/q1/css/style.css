@@ -2,10 +2,10 @@
 
 /* 回答はここに書いてね */
 .box_wrap {
-  width: 920px;
+  width: 900px;
   margin: 0 auto;
   background-color:#eff3f4;
-  padding: 20px 0 20px 20px;
+  padding: 20px;
 }
 
 .box_group:nth-child(-n+3) {

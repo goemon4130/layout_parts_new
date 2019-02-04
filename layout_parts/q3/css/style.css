@@ -6,7 +6,7 @@
     width: 100%;
   }
 
-  tr th:nth-child(-n+6) {
+  .food tr:first-child th:nth-child(-n+6) {
     font-size: 18px;
     line-height: 26px;
     color: #ffffff;
@@ -24,7 +24,17 @@
     background-color: #ecf1f2;
   }
 
-  .food td:nth-child(-n+6), tr th:nth-child(-n+6) {
+  .food tr:nth-child(n+2):nth-child(-n+6) td:nth-child(-n+6), .food tr:first-child th:nth-child(-n+6) {
+    border: solid #dedede 1px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .food tr:nth-child(n+2):nth-child(-n+6) th {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #2244aa;
     border: solid #dedede 1px;
     text-align: center;
     padding: 10px;
